@@ -1,0 +1,104 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(basketball.jpg);
+    background-size: cover;
+}
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+    opacity: 0.8;
+    box-shadow: 0 0 18px red;
+    width: 480px;
+    margin: 200px auto;
+    padding: 25px 25px 25px 25px;
+    border-radius: 10px;
+}
+
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    color: #EEEEEE;
+    align-items: center; 
+}
+
+h3 {
+    font-family: verdana;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+
+
+}
+
+.display {
+    font-family: 'Seven Segment', sans-serif;
+    background: #080001;
+    width: 117px;
+    padding: 0 15px;
+    font-size: 90px;
+    font-weight: 400;
+    color: #F94F6D;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid red
+}
+
+
+
+.btngroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 155px;
+    height: 60px;
+    margin-top: 10px;
+
+}
+
+.btn {   
+    font-size: larger; 
+    background: none;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color:#9AABD8;
+    padding: 10px;
+   
+}
+
+.btn:hover {
+    background-color: #080001;}
+
+.btn:active {
+    background-color: #080001;;
+    color: #F94F6D;
+    border: 2px solid red;
+}
+
+.btn-reset {   
+    font-size: larger; 
+    background: none;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color:#9AABD8;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.btn-reset:hover {
+    background-color: #080001;}
+
+.btn-reset:active {
+    background-color: #080001;;
+    color: #F94F6D;
+    border: 2px solid red;
+}

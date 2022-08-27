@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="http://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+        <style>
+            @import url('http://fonts.cdnfonts.com/css/seven-segment');
+            </style>
+       
+    </head>
+    <body>
+        <div class="container">
+            <div class="scoreboard">
+                <div class="team">
+                    <h3>HOME</h3>
+                    <h2 class="display" id="display-home">00</h2>
+                    <div class="btngroup">
+                        <button class="btn" onclick="homeScored1()">+1</button>
+                        <button class="btn" onclick="homeScored2()">+2</button>
+                        <button class="btn" onclick="homeScored3()">+3</button>
+                    </div>
+                </div>
+            
+                <div class="team">
+                    <h3>GUEST</h3>
+                    <h2 class="display" id="display-guest">00</h2>
+                    <div class="btngroup">
+                        <button class="btn" onclick="guestScored1()">+1</button>
+                        <button class="btn" onclick="guestScored2()">+2</button>
+                        <button class="btn" onclick="guestScored3()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn-reset" onclick="resetGame()">RESET GAME</button>
+            </div>
+        </div>    
+     </body>   
+<script src="index.js"></script>
+        
